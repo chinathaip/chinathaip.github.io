@@ -105,5 +105,5 @@ func main() {
 	router.PUT("/book/:id", updateBookById)
 	router.DELETE("/book/:id", deleteBookById)
 
-	router.Run("localhost:8000")
+	router.Run(":8000")
 }
